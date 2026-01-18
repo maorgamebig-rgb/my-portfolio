@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    color: hsl(0, 0%, 0%, 50%)
+}
+.loading_bar{
+    width: 70px;
+    height: 70px;
+    border-left: 8px solid hsl(216, 98%, 58%);
+    border-top: 8px solid hsl(216, 98%, 58%);
+    border-right: 8px solid hsl(0, 0%, 80%);
+    border-bottom: 8px solid hsl(0, 0%, 80%);
+    border-radius: 50%;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes loading{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

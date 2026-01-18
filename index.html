@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Maor Yevtushenko Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--nav bar-->
+
+    <section id="top_part">
+        <header>
+            <nav class="nav_bar">
+                <ul>
+                    <li><h1><a href="#name_job" alt="jump to name and job">HOME</a></h1></li>
+                    <li><h1><a href="#about" alt="jump to name and job">ABOUT</a></h1></li>
+                    <li><h1><a href="#projects" alt="jump to name and job">PROJECTS</a></h1></li>
+                    <li><h1><a href="#contact" alt="jump to name and job">CONTACT</a></h1></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--name&some animation-->
+
+        <div id="background_name">
+            <div class="name_job" id="name_job">
+                <h1>Maor Yevtushenko</h1>
+                <div class="type_writer">
+                    <h3>Frontend Developer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+
+    <!--about me-->
+    
+    <div id="background_about">
+        <div class="about" id="about">
+            <h1>About Me</h1>
+            <p>
+            I'm 14 years old, learing to code in html&css, worked on some small projects.
+            hoping to learn a lot from youtube, people, <a href="https://www.w3schools.com/" alt="w3schools page" target="_blank">w3schools</a> and more!
+            </p>
+        </div>
+    </div>
+    
+    <!--projects-->
+
+    <div id="background_projects">
+        <div class="projects" id="projects">
+            <h1 id="title">My Projects</h1>
+            <div class="pro1">
+                <a href="project_1_hub/index.html" alt="my first project" target="_blank">
+                    <img src="images/project_1_img.jpg" title="tf2 image">
+                    <h1>WeMakeGoodTeam's Hub</h1>
+                    <p>
+                        My first project using only html, no css learnt at the time.<br>
+                        The webpage uses mostly basic html.
+                    </p>
+                </a>
+            </div>
+            <div class="pro2">
+                <a href="project_2_loading_screen/index.html" alt="loading screen project" target="_blank">
+                    <img src="images/project_2_img.png" title="loading screen image">
+                    <h1>Loading Screen</h1>
+                    <p>
+                        My first time practicing animation using css.<br>
+                        Insperation taken from a toutrial on "freeCodeCamp".<br>
+                        <a href="https://www.freecodecamp.org/news/how-to-build-a-delightful-loading-screen-in-5-minutes-847991da509f" alt="toutorial page" target="_blank" id="toutorial" style="color: blue"><ins>Click for toutorial</ins></a>
+                    </p>
+                </a>
+            </div>
+            <div class="pro3">
+                <a href="" alt="" target="_blank">
+                    <img src="images/" title="">
+                    <h1><!--Project name--></h1>
+                    <p><!--Some background--></p>
+                </a>
+            </div>
+            <div class="pro4">
+                <a href="" alt="" target="_blank">
+                    <img src="images/" title="">
+                    <h1><!--Project name--></h1>
+                    <p><!--Some background--></p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--contact me-->
+
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name" required class="input"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required class="input"><br>
+            <label for="message">Message for me:</label>
+            <textarea id="message" rows="9" cols="80"name="message" style="vertical-align: top;" required></textarea><br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+
+    </main>
+</body>
+</html>
